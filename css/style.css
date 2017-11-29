@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -16,6 +16,12 @@ img.verif_img {
 }
 
 /********** Global **********/
+
+/**{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
 
 body {
 	background: url(../images/handmadepaper.png);
@@ -111,7 +117,7 @@ iframe {
 }
 
 .shadow {
-	box-shadow: 0 3px 10px #333;
+	box-shadow: 0 3px 10px #333
 }
 
 .milk_text {
@@ -122,8 +128,8 @@ iframe {
 }
 
 .border_right {
-	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+	border-left: 1px dotted #ccc;
+	padding-left: 20px;
 }
 
 .thumbs_up {
@@ -301,5 +307,48 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+/********** columns **********/
+
+.col-1{
+	float: left;
+	width: 66%;
+}
+
+.col-2{
+	float: right;
+	margin-left: 1%;
+	width: 33%;
+	height: 100%;
+}
+
+.col-3{
+	margin: 10px .0 0 0;
+	clear: left;
+	float: left;
+	width: 32.5%;
+
+}
+
+.col-4{
+	margin: 10px 0 0 1%;
+	float: right;
+	width: 33%;
+}
+
+.col-5{
+	margin: 10px 0 0 0;
+	float: right;
+	width: 32.5%;
+}
+
+.col-6{
+	float: right;
+	width: 32.5%;
+}
+.col-7{
+	float: right;
+	width: 32.5%;
+}
 
 /* code examples copyright Jonathan Grover 2012 */
