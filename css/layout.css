@@ -23,5 +23,93 @@
 }
 
 /* Posititoning Classes */
+#wood {
+  width: 100%;
+}
 
+img[alt*="crown"] {
+	position: absolute;
+	width: 2%;
+	float: left;
+	margin-left: 1%;
+}
 
+#kids_shoes {
+  margin-bottom: 2%;
+}
+
+#featured {
+  float: left;
+  width: 65.5%;
+  margin-bottom: 1%;
+}
+
+#shoe_archive {
+  float: right;
+  width: 32%;
+  height: 10%;
+  margin-bottom: 1%;
+}
+
+#ladybug {
+  height: 360px;
+  width: 32%;
+  float: left;
+  margin: 1%;
+  margin-left: 0%;
+}
+
+#skater {
+  height: 360px;
+  width: 32%;
+  float: left;
+  margin: 1%;
+}
+
+#heel {
+  height: 360px;
+  width: 32%;
+  float: left;
+  margin: 1%;
+  margin-right: 0%;
+}
+
+#contact {
+  float: left;
+  padding-right: 15%;
+}
+
+#links {
+  float: left;
+  padding-left: 2%;
+  padding-right: 10%;
+}
+
+#follow {
+  float: left;
+  padding-left: 2%;
+}
+
+#wood .clearfix {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+#deals .clearfix {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+
+#details .clearfix {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
